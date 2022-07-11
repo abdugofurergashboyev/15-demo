@@ -19,3 +19,11 @@ const ButtonElement2 = document.querySelector("modal-button")
 ButtonElement2.onclick = event => {
     console.log(event);
 }
+var counter = 1
+setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter> 4){
+        counter=1;
+    }
+},5000);

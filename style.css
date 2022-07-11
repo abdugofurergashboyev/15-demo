@@ -13,6 +13,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -28,7 +29,7 @@ body{
     background-color: white;    
 }
 .modal{
-    background-image: url(https://picsum.photos/400);
+    background-image: url(https://picsum.photos/600);
 }
 
 .slider{
@@ -136,4 +137,36 @@ background: #40d3dc;
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #40d3dc;
     
+}
+
+.modal-button{
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: .65s;
+}
+.modal-button:hover{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+}
+
+
+.modal-close{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .65s;
+}
+.modal-close:hover{
+background-color: red;
+color: black;
+font-weight: bold;
+}
+
+.modal-close{
 }
