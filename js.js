@@ -7,11 +7,11 @@ modalcloseButtonElement.onclick = function(event){
     document.body.classList.remove("modal-body")
 }
 
-const ButtonElement1 = document.querySelector("modal-button")
-ButtonElement1.addEventListener("click",Event=>{
-    console.log(event);
+const ButtonElement = document.querySelector("modal-button")
+ButtonElement.addEventListener("click",Event=>{
+    console.log(Event);
 })
-ButtonElement1.onclick = event => {
+ButtonElement.onclick = event => {
     console.log(event);
 }
 
